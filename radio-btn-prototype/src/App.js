@@ -16,7 +16,6 @@ class App extends Component {
       color: event.target.value
     })
   }
-  
   render() {
     return (
       <div className="App">
