@@ -1,0 +1,33 @@
+.clockFace{
+    width:80vmin;
+    height:80vmin;
+    margin:0 auto;
+    border:.5vmin solid black;
+    border-radius: 50%;
+    position: relative;
+}
+.hand{
+    height:5vmin;
+    background-color:black;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform-origin:0% 50%;
+    transform:rotateZ(0deg);
+}
+
+.tickContainer{
+    height: 1px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0% 50%;
+  }
+  .tickMark{
+    position: absolute;
+    right: 0;
+    height: 5%;
+    width: 2px;
+    border: 1px solid black;
+  }
